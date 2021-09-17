@@ -54,3 +54,11 @@ function digital_root(n) {
 * IT-Academy course "Web application development with JavaScript" (completed, final grade 7)
 * JavaScript Manual on learnjavascript.ru (in progress)
 * RS Schools Course «JavaScript/Front-end» (in progress)
+
+---
+
+### Languages
+
+* English - Advanced C1 (confirmed by the IELTS certificate)
+* Russian - native
+* Belarusian - native
