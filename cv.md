@@ -6,7 +6,7 @@
 
 **Email:** *sashaladoa@gmail.com*
 
-**Telegram** *@sashallll*
+**Telegram:** *@sashallll*
 
 
 ---
@@ -21,7 +21,7 @@ Hopefully, my ability to gain knowledge will help me to start my career in Front
 
 ---
 
-###Skills:
+### Skills:
 
 * HTML5, CSS3
 * JavaScript
@@ -29,3 +29,28 @@ Hopefully, my ability to gain knowledge will help me to start my career in Front
 
 ---
 
+### Code example:
+```javascript
+function digital_root(n) {
+    var sNumero = n.toString();
+    var sum = 0;
+
+    for(i = 0 ; i < sNumero.length; i++){
+        sum += parseInt(sNumero[i]);
+    }
+
+    if(sum > 9){
+       return digital_root(sum);
+    }
+    return sum;
+
+}
+```
+
+---
+
+### Courses
+
+* IT-Academy course "Web application development with JavaScript" (completed, final grade 7)
+* JavaScript Manual on learnjavascript.ru (in progress)
+* RS Schools Course «JavaScript/Front-end» (in progress)
