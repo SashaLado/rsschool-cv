@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="styles/IMG_4256.PNG">    
-    <link rel="stylesheet" href="styles/style.css"> 
+    <link rel="icon" type="image/x-icon" href="styles/IMG_4256.PNG">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+	<script>hljs.initHighlightingOnLoad();</script>
     <title>RSSchool CV</title>
 </head>
 <body>
@@ -32,7 +35,7 @@
 			</div>
 			<div class="column column_main column_header">
 				<h1 class="header__title">Lado Aliaksandra</span></h1>
-				<h3 class="header__subtitle">Web-developer</h3>
+				<h3 class="header__subtitle"> Junior web-developer</h3>
 			</div>
 		</header>
 		<main class="main">
@@ -90,7 +93,7 @@
                         <li class="skills-list__item">JavaScript Basics</li>
                         <li class="skills-list__item">Git, GitHub</li>
                         <li class="skills-list__item">VSCode, Webstorm</li>
-					</ul>				
+					</ul>
 				</section>
 				<section class="document-section languages" id="languages">
 					<h2 class="document-title"><img class="contact__image contact__image_contacts" src="styles/IMG_4259.PNG" alt="">Languages</h2>
@@ -100,7 +103,7 @@
                         <li class="languages__item">Belorusian - native</li>
 					</ul>
 				</section>
-			</div>	
+			</div>
 			<div class="column column_main">
 				<section class="document-section about" id="about">
 					<h2 class="document-title">About me</h2>
@@ -116,18 +119,84 @@
 					</p>
 				</section>
 				<section class="document-section work" id="project">
-					<h2 class="document-title">Project</h2>
-                    <div class="work__block">
+					<h2 class="document-title">Projects</h2>
+					<div class="work__block">
 						<h3 class="work__head">The game 2048</h3>
 						<div class="work__text">
 							<p class="document-text">
 								CSS3 and JavaScript animation is used. Moreover, the app responds to swipes and keyboard taps.</p>
-                                <div class="date education__date">The app sourse you can see <a href="https://replit.com/@lado030803/swipe-me#script.js" class="contact__link__white" target="_blank">HERE.</a></div>
-                            <a href="https://swipe-me.lado030803.repl.co/#back" target="_blank"><img src="styles/project.png" alt="" class="project__img"></a>
+							<div class="projects__image-wrapper">
+								<a href="https://swipe-me.lado030803.repl.co/#back" target="_blank"><img src="styles/project.png" alt="" class="project__img"></a>
+							</div>
 						</div>
 					</div>
-                </section>
-                <section>
+					<div class="work__block">
+						<h3 class="work__head">The Louvre</h3>
+						<div class="work__text">
+							<ul class="document-text">
+								<li class="document-list__item">Creating an infinite slider/swiper</li>
+								<li class="document-list__item">Creating a custom HTML5 video player</li>
+								<li class="document-list__item">Creating an image comparison slider</li>
+								<li class="document-list__item">Animation on scroll</li>
+								<li class="document-list__item">Adding a product sales calculator</li>
+								<li class="document-list__item">Form validation</li>
+								<li class="document-list__item">Adding an interactive map</li>
+							</ul>
+							<div class="projects__image-wrapper">
+								<a href="https://keen-boyd-08d5e9.netlify.app/" target="_blank"><img src="styles/museum.png" alt="" class="project__img"></a>
+							</div>
+						</div>
+					</div>
+					<div class="work__block">
+						<h3 class="work__head">Momentrum</h3>
+						<div class="work__text">
+							<ul class="document-text">
+								<li class="document-list__item">Element search methods</li>
+								<li class="document-list__item">Outputting data to a page</li>
+								<li class="document-list__item">Work with date and time</li>
+								<li class="document-list__item">Storing data in local storage</li>
+								<li class="document-list__item">Using recursive setTimeout</li>
+								<li class="document-list__item">Work with asynchronous requests</li>
+							</ul>
+							<div class="projects__image-wrapper">
+								<a href="https://k1ndum.github.io/momentum/index.html" target="_blank"><img src="styles/momentrum.png" alt="" class="project__img"></a>
+							</div>
+						</div>
+					</div>
+					<div class="work__block">
+						<h3 class="work__head">Art Quiz</h3>
+						<div class="work__text">
+							<ul class="document-text">
+								<li class="document-list__item">OOP</li>
+								<li class="document-list__item">JavaScript Classes</li>
+								<li class="document-list__item">Modules in JavaScript</li>
+								<li class="document-list__item">Webpack</li>
+								<li class="document-list__item">CSS3 Animations</li>
+								<li class="document-list__item">Generating html via js</li>
+							</ul>
+							<div class="projects__image-wrapper">
+								<a href="https://rolling-scopes-school.github.io/sashalado-JSFE2021Q3/art-quiz/art-quiz/" target="_blank"><img src="styles/art-quiz.png" alt="" class="project__img"></a>
+							</div>
+						</div>
+					</div>
+					<div class="work__block">
+						<h3 class="work__head">Christmas Game</h3>
+						<div class="work__text">
+							<ul class="document-text">
+								<li class="document-list__item">TypeScript</li>
+								<li class="document-list__item">Modules in JavaScript</li>
+								<li class="document-list__item">Data sorting</li>
+								<li class="document-list__item">Data filtering</li>
+								<li class="document-list__item">Search implementation</li>
+								<li class="document-list__item">"Drag and drop" implementation</li>
+							</ul>
+							<div class="projects__image-wrapper">
+								<a href=" https://modest-bohr-0a8fd4.netlify.app/" target="_blank"><img src="styles/christmas.png" alt="" class="project__img"></a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section>
 					<div class="work__block" id="code">
                         <h2 class="document-title">Code example</h2>
 						    <h3 class="work__head">Here you can see my code style.</h3>
@@ -140,30 +209,19 @@
                                     function digital_root(n) {
                                         var sNumero = n.toString();
                                         var sum = 0;
-                                    
+
                                         for(i = 0 ; i < sNumero.length; i++){
                                             sum += parseInt(sNumero[i]);
                                         }
-                                    
+
                                         if(sum > 9){
                                            return digital_root(sum);
                                         }
                                         return sum;
-                                    
+
                                     }
                                 </code>
                             </pre>
-						</div>
-					</div>
-                </section>
-                <section>
-					<div class="work__block" id="video">
-                        <h2 class="document-title">Video resume</h2>
-						    <div class="work__info">
-							    <div class="date work__date">video on youtube.com</youtube></div>
-						    </div>
-						<div class="work__text">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/d8h4gzm1hzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</div>
                 </section>
