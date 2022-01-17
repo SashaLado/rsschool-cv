@@ -19,11 +19,13 @@ ul{
     --blue: #2600ff;
   }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 body{
 	width: 100%;
-	font-family: 'ralewayregular';
+  font-family: "Open Sans", serif;
 	color: var(--text-color);
 }
 .wrapper{
@@ -60,7 +62,7 @@ body{
     font-family: 'ralewaybold';
     padding: 2px 10px;
 }
-.document-link{    
+.document-link{
     color: var(--main-color);
     font-weight: 600;
     text-decoration: none;
@@ -100,13 +102,13 @@ body{
     width: 100%;
     background-color:#e1e1e1;
   }
-  
+
   .site-navigation {
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
-  
+
   .site-navigation__link {
     display: inline-block;
     text-decoration: none;
@@ -115,12 +117,12 @@ body{
     padding: 20px;
     position: relative;
   }
-  
+
   .site-navigation__link:hover{
     color: var(--blue);
   }
-  
- 
+
+
 /* Main Style End */
 /* Header Style Start */
 	.header{
@@ -130,8 +132,8 @@ body{
         overflow: hidden;
         z-index: 1;
     }
-    
-    
+
+
     .header__avatar{
         display: flex;
         height: 250px;
@@ -141,8 +143,8 @@ body{
         position: relative;
         z-index: 2;
     }
-    
-    
+
+
     .header__picture{
         width: 100%;
         -o-object-fit: cover;
@@ -162,6 +164,26 @@ body{
     .header__subtitle{
         font-size: 25px;
     }
+
+  .projects__image-wrapper {
+
+    height: 230px;
+    margin: 10px;
+    border-radius: 30px;
+    display: flex;
+    z-index: 5;
+    transition: 0.5s ease-in-out;
+
+  }
+
+.projects__image-wrapper h3 {
+  position: absolute;
+  text-align: center;
+  top: 60%;
+  color: #19113b;
+  transform: translateY(-60%);
+}
+
 /* Header Style End */
 /* Contact Style Start */
     .contact__link{
@@ -223,16 +245,19 @@ body{
     .course__img {
         height: 200px;
         margin: 20px auto;
-        
+
     }
     .project__img {
-        height: 250px;
-        margin: 20px auto;
-        
+      border-radius: 5px;
+      display: flex;
+      z-index: 5;
+        height: 230px;
+        margin: 10px;
+      transition: 0.5s;
+      filter: blur(4px);
     }
     .project__img:hover {
-        margin: 15px auto;
-        border: 5px solid var( --main-color);
+      filter: none;
     }
 
 /* Education Style End */
@@ -272,7 +297,7 @@ body{
     display: flex;
     align-items: center;
 }
-    
+
     .skills-list__item{
         padding: 0 0 10px 15px;
         position: relative;
@@ -324,40 +349,40 @@ body{
 
 
 
-      
+
       .footer__inner {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
       }
-      
+
       .footer__block {
         margin-right: auto;
         padding-right: 50px;
       }
-      
+
       .page-footer__contact-links {
         display: flex;
         align-items: center;
         gap: 68px;
       }
-      
+
       .contact-links__item {
         color: var(--text-color);
         font-weight: 700;
       }
-      
+
       .rsschool path{
         fill: var(--text-color);
       }
-      
+
       .rsschool:hover path {
         fill: var(--blue);
       }
-      
-      
-  
+
+
+
 /* Footer Style End */
 /* Media Queries Start */
 
